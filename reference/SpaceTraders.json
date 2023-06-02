@@ -88,16 +88,20 @@
                       "type": "object",
                       "properties": {
                         "agents": {
-                          "type": "integer"
+                          "type": "integer",
+                          "format": "int64"
                         },
                         "ships": {
-                          "type": "integer"
+                          "type": "integer",
+                          "format": "int64"
                         },
                         "systems": {
-                          "type": "integer"
+                          "type": "integer",
+                          "format": "int64"
                         },
                         "waypoints": {
-                          "type": "integer"
+                          "type": "integer",
+                          "format": "int64"
                         }
                       },
                       "required": [
@@ -138,7 +142,8 @@
                                 "type": "string"
                               },
                               "chartCount": {
-                                "type": "integer"
+                                "type": "integer",
+                                "format": "int64"
                               }
                             },
                             "required": [
@@ -359,6 +364,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1
             },
             "in": "query",
@@ -368,6 +374,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1,
               "maximum": 20
             },
@@ -469,6 +476,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1
             },
             "in": "query",
@@ -478,6 +486,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1,
               "maximum": 20
             },
@@ -757,6 +766,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1
             },
             "in": "query",
@@ -766,6 +776,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1,
               "maximum": 20
             },
@@ -898,6 +909,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1
             },
             "in": "query",
@@ -907,6 +919,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1,
               "maximum": 20
             },
@@ -1047,7 +1060,8 @@
                     "type": "string"
                   },
                   "units": {
-                    "type": "integer"
+                    "type": "integer",
+                    "format": "int64"
                   }
                 },
                 "required": [
@@ -1208,6 +1222,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1
             },
             "in": "query",
@@ -1217,6 +1232,7 @@
           {
             "schema": {
               "type": "integer",
+              "format": "int64",
               "minimum": 1,
               "maximum": 20
             },
@@ -1516,7 +1532,8 @@
                                 "type": "string"
                               },
                               "units": {
-                                "type": "integer"
+                                "type": "integer",
+                                "format": "int64"
                               }
                             }
                           }
@@ -1530,7 +1547,8 @@
                                 "type": "string"
                               },
                               "units": {
-                                "type": "integer"
+                                "type": "integer",
+                                "format": "int64"
                               }
                             }
                           }
@@ -1891,7 +1909,8 @@
                   },
                   "units": {
                     "minimum": 1,
-                    "type": "integer"
+                    "type": "integer",
+                    "format": "int64"
                   }
                 },
                 "required": [
@@ -2293,7 +2312,8 @@
                     "type": "string"
                   },
                   "units": {
-                    "type": "integer"
+                    "type": "integer",
+                    "format": "int64"
                   }
                 },
                 "required": [
@@ -2623,7 +2643,8 @@
                     "type": "string"
                   },
                   "units": {
-                    "type": "integer"
+                    "type": "integer",
+                    "format": "int64"
                   }
                 },
                 "required": [
@@ -2708,7 +2729,8 @@
                     "type": "string"
                   },
                   "units": {
-                    "type": "integer"
+                    "type": "integer",
+                    "format": "int64"
                   },
                   "shipSymbol": {
                     "type": "string"
